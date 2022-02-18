@@ -1,0 +1,38 @@
+.form input {
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid grey;
+  padding: 0.5rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+}
+
+form .btn {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #4d1601;
+  color: white;
+  padding: 0.75rem 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.invalid input {
+  background: rgb(238, 156, 156);
+  border-color: red;
+}
